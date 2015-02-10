@@ -59,7 +59,7 @@ When the truncation equations define several disconnected regions, the samples b
 \value{ An n-by-d matrix, where each row contains a sample.
 }
 \references{
-Pakman, A. and Paninski, L. (2012) Exact Hamiltonian Monte Carlo for Truncated Multivariate Gaussians.
+Pakman, A. and Paninski, L., Exact Hamiltonian Monte Carlo for Truncated Multivariate Gaussians - Journal of Computational and Graphical Statistics, 2014
 
 \url{http://arxiv.org/abs/1208.4118}
 }

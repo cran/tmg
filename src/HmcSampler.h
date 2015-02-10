@@ -11,13 +11,12 @@
 #define _USE_MATH_DEFINES
 
 #include <cmath>
-#include <tr1/random>
+#include <random>
 #include <vector>
 #include <Eigen/Dense>
 
 using namespace Eigen;
 using namespace std;
-using namespace std::tr1;
 
 struct LinearConstraint{
   VectorXd f;
@@ -48,9 +47,8 @@ private:
     vector<LinearConstraint> linearConstraints;
     vector<QuadraticConstraint> quadraticConstraints;
     
-    ranlux64_base_01 eng1;
-//    mt19937 eng1; //to sample time and momenta 
-    uniform_real<> ud; 
+    knuth_b eng1; //to sample momenta 
+    uniform_real_distribution<> ud; 
     normal_distribution<> nd; 
 
     void _getNextLinearHitTime(const VectorXd & a, const VectorXd & b,  double & t, int & cn );

@@ -1,5 +1,5 @@
-a764c895b8603a31e783bbef1845df7c *DESCRIPTION
-818bfbb7787a7795b5994ec9f38fbf61 *NAMESPACE
+64b593e67ab6b4a01fdb5ff50a83eade *DESCRIPTION
+8c7f445d12d01d0dcc4111698aa1dd76 *NAMESPACE
 77af6e81d47f4a76a539a3a1a5cc7d4a *R/tmg.R
 93c95c42ccb59b48be4df23797a86cdf *inst/include/magnet/arg_share.hpp
 6166d85d87c0e92c7ac9576bb3f7984e *inst/include/magnet/clamp.hpp
@@ -34,10 +34,10 @@ c51648a233ee08f2266d5be0e38a821a *inst/include/magnet/static_assert.hpp
 51e81d32e1d46c156365093ae03bb72a *inst/include/magnet/wiiheadtracking.hpp
 c223b7fb284028e387a47b7f6781ff83 *inst/include/magnet/xmlreader.hpp
 4c700ec9fcda1567f5b0902862049511 *inst/include/magnet/xmlwriter.hpp
-05365754e6cfc35c9ab184059d40a38c *man/rtmg.Rd
-26ec75814ded8bd15d026502b2939fd5 *src/HmcSampler.cpp
-7bce1f7c8b265965af461a3005895dc2 *src/HmcSampler.h
-45694bb02f098a1027c61d6ea113e2c3 *src/Makevars
-b34994a4731c28da8c85b3e5c53f00cc *src/Makevars.win
+83e0fa12f98aa281a299b6e7216f3ed9 *man/rtmg.Rd
+0b71ebb480f46b4a74bb079414802b77 *src/HmcSampler.cpp
+bdb661782c3d473dbed7fab459b3e3a4 *src/HmcSampler.h
+054a37a2c2ccf0cad6b9b09eb6c0897b *src/Makevars
+bf914be7f122d3808e7de46144b2391a *src/Makevars.win
 449e0c09558332a1976cf44f361e435f *src/rtmg.cpp
 aa8426a77ee110c9ff7f8001adbc780f *src/rtmg.h

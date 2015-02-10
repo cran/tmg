@@ -8,14 +8,13 @@
 #define _USE_MATH_DEFINES   // for the constant M_PI
 //#include <cstdlib>
 #include <cmath>
-#include <tr1/random>
+#include <random>
 #include <Eigen/Dense>
 #include <magnet/math/quartic.hpp>
 
 #include "HmcSampler.h"
 
 using namespace std;
-using namespace std::tr1;
 using namespace magnet::math;
 
 
@@ -25,7 +24,7 @@ HmcSampler::HmcSampler(const int & d, const int & seed ) {
 dim=d;    
 //eng1.seed(static_cast<unsigned int >(time(NULL)));
 eng1.seed(seed);
-ud= uniform_real<>(0,M_PI);
+ud= uniform_real_distribution<>(0,M_PI);
 }   
 
 
@@ -45,7 +44,7 @@ MatrixXd HmcSampler::sampleNext(bool returnTrace ) {
 
     MatrixXd tracePoints = MatrixXd(dim,0);   //this matrix will only be filled if(returnTrace)
 
-    double T = ud(eng1);        // sample how much time T to move
+    double T = M_PI/2; // ud(eng1);        // sample how much time T to move
     VectorXd b = lastSample;
     VectorXd a = VectorXd(dim);   // initial velocity 
 
