@@ -1,4 +1,4 @@
-64b593e67ab6b4a01fdb5ff50a83eade *DESCRIPTION
+f88e4cee70365656fab688c0fd60fd0a *DESCRIPTION
 8c7f445d12d01d0dcc4111698aa1dd76 *NAMESPACE
 77af6e81d47f4a76a539a3a1a5cc7d4a *R/tmg.R
 93c95c42ccb59b48be4df23797a86cdf *inst/include/magnet/arg_share.hpp
@@ -15,17 +15,17 @@ dd1879a8ecabd7a53bd2864e98aa42e9 *inst/include/magnet/math/cubic.hpp
 fc3f23da4f5f0f5ba10ff1d03bce0b5c *inst/include/magnet/math/dilated_int.hpp
 adef41da593fb2ab216c299fe937fa08 *inst/include/magnet/math/frenkelroot.hpp
 e1ba34364f50f07e9f59fc276f3bb118 *inst/include/magnet/math/histogram.hpp
-cc0b70d971d425c62221dd6296c4f062 *inst/include/magnet/math/matrix.hpp
+7fd315a8766c2a2de1724adfa6ee153a *inst/include/magnet/math/matrix.hpp
 2058eed6f751080098d1d90dc7ac7a14 *inst/include/magnet/math/morton_number.hpp
 c793474860cc1fbefd15da8f8343ff10 *inst/include/magnet/math/quadratic.hpp
 f5ea603429a27c68ab6463f191f8f16a *inst/include/magnet/math/quartic.hpp
 a4532812470a2ce355f8bd05458cf04d *inst/include/magnet/math/quartic_descartes.hpp
-d5445543ac9a9a2e24ed1a5deb264b15 *inst/include/magnet/math/quartic_error.hpp
+0c1f998ae9f4dc910b9e145efcd4b306 *inst/include/magnet/math/quartic_error.hpp
 7f761f07aaaad7c29c920b71be7648b5 *inst/include/magnet/math/quartic_ferrari.hpp
 5bcfb6a2c897c6e9dce5dcbba9b4ea3e *inst/include/magnet/math/quartic_neumark.hpp
 26fb08668706025b660ff29e215b21e9 *inst/include/magnet/math/quartic_yacfraid.hpp
 8ff42684f9b4e9b3f582082e12f4f4d3 *inst/include/magnet/math/spline.hpp
-9b486055d49781d75fa00140ace9baab *inst/include/magnet/math/vector.hpp
+bd34b2b16c71c276a4ecedc605b492f7 *inst/include/magnet/math/vector.hpp
 cd56ba247208b467481de7667c978af6 *inst/include/magnet/math/wigner3J.hpp
 d5f6566ddc8805e3001704af3f61afcf *inst/include/magnet/memUsage.hpp
 98faa48c1d25acf73920d2c63c984c7d *inst/include/magnet/stacktrace.hpp
@@ -33,7 +33,7 @@ c51648a233ee08f2266d5be0e38a821a *inst/include/magnet/static_assert.hpp
 85801d9a197380f61b77ca1b062a03a7 *inst/include/magnet/units.hpp
 51e81d32e1d46c156365093ae03bb72a *inst/include/magnet/wiiheadtracking.hpp
 c223b7fb284028e387a47b7f6781ff83 *inst/include/magnet/xmlreader.hpp
-4c700ec9fcda1567f5b0902862049511 *inst/include/magnet/xmlwriter.hpp
+e7307e83d2a54d10df70fc4e0da8c260 *inst/include/magnet/xmlwriter.hpp
 83e0fa12f98aa281a299b6e7216f3ed9 *man/rtmg.Rd
 0b71ebb480f46b4a74bb079414802b77 *src/HmcSampler.cpp
 bdb661782c3d473dbed7fab459b3e3a4 *src/HmcSampler.h

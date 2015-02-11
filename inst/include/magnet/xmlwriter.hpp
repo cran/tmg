@@ -17,7 +17,7 @@
 */
 
 #pragma once
-#include <tr1/memory>
+#include <memory>
 #include <stack>
 #include <string>
 #include <sstream>
@@ -135,7 +135,7 @@ namespace magnet {
 	Calls the output operator on the dereferenced object
        */
       template<class T>
-      XmlStream& operator<<(const std::tr1::shared_ptr<T>& value) {
+      XmlStream& operator<<(const std::shared_ptr<T>& value) {
 	if (stateTagName == state)
 	  tagName << value;
 	return ((*this) << (*value));
